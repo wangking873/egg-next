@@ -1,0 +1,61 @@
+{
+  "name": "egg-next",
+  "version": "1.0.0",
+  "description": "",
+  "eggPlugin": {
+    "name": "next"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "autod": "^2.7.1",
+    "egg": "^1.0.0",
+    "egg-bin": "^3.1.0",
+    "egg-ci": "^1.5.0",
+    "egg-mock": "^3.2.0",
+    "eslint": "^3.18.0",
+    "eslint-config-egg": "^3.2.0",
+    "supertest": "^3.0.0"
+  },
+  "peerDependencies": {
+    "next": "^2.1.0",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "files": [
+    "index.js",
+    "app.js",
+    "agent.js",
+    "config",
+    "app",
+    "lib"
+  ],
+  "ci": {
+    "version": "6, 7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggjs/egg-next.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eggjs/egg/issues"
+  },
+  "homepage": "https://github.com/eggjs/egg-next#readme",
+  "author": "wangshijie@fangdd.com",
+  "license": "MIT"
+}
