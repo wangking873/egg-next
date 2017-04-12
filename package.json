@@ -1,6 +1,6 @@
 {
   "name": "egg-next",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "eggPlugin": {
     "name": "next"
@@ -52,12 +52,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-next.git"
+    "url": "git+https://github.com/wangking873/egg-next"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-next#readme",
+  "homepage": "https://github.com/wangking873/egg-next",
   "author": "wangshijie@fangdd.com",
   "license": "MIT"
 }
