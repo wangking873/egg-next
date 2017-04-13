@@ -56,6 +56,7 @@ exports.next = {
 ## 使用场景
 
 - 给egg增加next同构的能力，属于koa中间件最外层，/_next/前缀的请求通过next处理不在进入内层中间件，其他请求直接进入内层中间件处理（egg视图等），处理完后，如果返回404，再由next兜底。
+demo 地址 https://github.com/wangking873/egg-next-demo
 
 
 ## 详细配置
