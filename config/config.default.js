@@ -6,5 +6,8 @@
  * @property {String} SOME_KEY - some description
  */
 exports.next = {
-
+  dir: '.',
+  dev: false,
+  staticMarkup:false,
+  quiet:false
 };

@@ -1,6 +1,6 @@
 {
   "name": "egg-next",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "eggPlugin": {
     "name": "next"
@@ -12,7 +12,11 @@
     "next",
     "egg-next"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "next": "^2.1.0",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3"
+  },
   "devDependencies": {
     "autod": "^2.7.1",
     "egg": "^1.0.0",
@@ -23,11 +27,11 @@
     "eslint-config-egg": "^3.2.0",
     "supertest": "^3.0.0"
   },
-  "peerDependencies": {
-    "next": "^2.1.0",
-    "react": "^15.5.3",
-    "react-dom": "^15.5.3"
-  },
+  // "peerDependencies": {
+  //   "next": "^2.1.0",
+  //   "react": "^15.5.3",
+  //   "react-dom": "^15.5.3"
+  // },
   "engines": {
     "node": ">=6.0.0"
   },
